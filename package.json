@@ -2,7 +2,7 @@
   "name": "godo-crons",
   "version": "1.0.0",
   "description": "godo system crons",
-  "main": "src/index.js",
+  "main": "info.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
