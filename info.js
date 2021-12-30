@@ -1,10 +1,15 @@
-{
+module.exports = {
     "key": "godo_crons",
+    "dir": __dirname,
+    "info": {
+        "author": "godocms",
+        "url": "https://godocms.com",
+        "email" : "4294979@qq.com"
+    },
     "url": "cron",
     "type": "sys",
     "name": "计划任务",
     "sql": "data/init.sql",
-    "topMenuId": 2,
     "menu": {
         "title": "计划任务",
         "key": "crons",
@@ -14,6 +19,7 @@
         "order_num": 9,
         "icon": "layui-icon layui-icon-android",
         "lid": 1,
+        "pid" : 2,
         "ifshow": 0,
         "desktop": 0,
         "child": [
